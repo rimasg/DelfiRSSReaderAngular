@@ -1,0 +1,11 @@
+<p-panel>
+  <p-header>
+    Delfi News
+  </p-header>
+  <div *ngFor="let newsItem of newsItems">
+    <app-news-item [newsItem]="newsItem"></app-news-item>
+  </div>
+  <p-footer>
+    <i class="fa fa-copyright"></i> Delfi
+  </p-footer>
+</p-panel>

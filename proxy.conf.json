@@ -1,0 +1,11 @@
+{
+    "/rss/": {
+        "target": "http://www.delfi.lt/rss/feeds/",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/rss/": ""
+        }
+    }
+}

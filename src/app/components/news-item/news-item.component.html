@@ -1,0 +1,13 @@
+<p-panel [toggleable]="true" [collapsed]="true">
+  <p-header>
+    {{newsItem.title}}
+  </p-header>
+  <div class="ui-g">
+    <div class="ui-g-12 ui-md-2 ui-sm-4">
+      <img [src]="newsItem.thumbnail" [alt]="newsItem.title">
+    </div>
+    <div class="ui-g-12 ui-md-10 ui-sm-8">
+      {{newsItem.description}}
+    </div>
+  </div>
+</p-panel>
